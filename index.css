@@ -1,3 +1,44 @@
 #heading {
   color: red;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    input {
+      padding: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+    /* button {
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-left: 10px;
+    } */
+  }
+  .user-icon {
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
